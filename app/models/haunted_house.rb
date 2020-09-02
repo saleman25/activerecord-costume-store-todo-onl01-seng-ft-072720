@@ -1,5 +1,5 @@
 # Create your HauntedHouse class here
-class HauntedHouse < ActiveRecord::Migration[5.1]
+class HauntedHouse < ActiveRecord::Base
   
   def change
     create_table :haunted_houses do |t|
